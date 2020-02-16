@@ -3,27 +3,56 @@
 	<head>
 		<title>Homescreen</title>
 		<link rel="stylesheet" type="text/css" href="homescreen.css">
-		</head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	</head>
 	<body>
-		<div class="topnav">
+		<!-- <div class="topnav">
 		    <a class="active" href="homescreen.html">Home</a>
 			<a href="emergencyservices.html">Emergency Services</a>
 			<a href="profile.html">My Profile</a>
     		<div class="topnav-right">
    				<a href="#logout">Logout</a>
    			</div>
-		</div>	   
-		
-   		<div class="container">
-		   <div class="Camera1"><h2 class="cameraname">Camera 1</h2></div>
-		   <div class="Camera2"><h2 class="cameraname">Camera 2</h2></div>
-		   <div class="Camera3"><h2 class="cameraname">Camera 3</h2></div>
-		   <div class="Camera4"><h2 class="cameraname">Camera 4</h2></div>
-		   <div class="Camera5"><h2 class="cameraname">Camera 5</h2></div>
-		   <div class="Camera6"><h2 class="cameraname">Camera 6</h2></div>
-		   <div class="Camera7"><h2 class="cameraname">Camera 7</h2></div>
-		   <div class="Camera8"><h2 class="cameraname">Camera 8</h2></div>
-		   <div class="Camera9"><h2 class="cameraname">Camera 9</h2></div>
+		</div>	    -->
+		<div class="navbar-fixed">
+			<nav class="nav-extended">
+				<div class="nav-wrapper">
+				<a href="#" class="brand-logo">FIERC | Test Build</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="collapsible.html">Logout</a></li>
+				</ul>
+				</div>
+				<div class="nav-content">
+				<ul class="tabs tabs-transparent">
+					<li class="tab"><a class="active" href="#home">Home</a></li>
+					<li class="tab"><a href="#prof">Profile</a></li>
+					<li class="tab"><a href="#emer">Emergency</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+   		<div id="home">
+			<div class="container">
+				<button class="Camera"><h2 class="cameraname">Camera 1</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 2</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 3</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 4</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 5</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 6</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 7</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 8</h2></button>
+				<button class="Camera"><h2 class="cameraname">Camera 9</h2></button>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			</div>
+		</div>
+		<div id="prof">
+			<div class="container">
+				<p>This is your profile page</p>
+			</div>
+		</div>
+		<div id="emer">
+			<p>Emergency</p>
 		</div>
 	</body>
 </html>
